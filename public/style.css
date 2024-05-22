@@ -1,0 +1,25 @@
+:root {
+    --primary: #640D14;
+    --secondary: #E3DED0;
+}
+
+body {
+    background-color: var(--primary);
+}
+
+#home_page {
+    background-color: var(--secondary);
+    border-radius: 30px;
+}
+
+#home_page button {
+    background-color: var(--primary);
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
+#home_page a {
+    color: var(--primary);
+}
+

@@ -36,7 +36,7 @@ class HomeController extends Controller
             }
         }
 
-        return back()->with('pesanError', 'Email atau password anda salah!');
+        return back()->with('error', 'Email atau password anda salah!');
     }
 
     public function register()
@@ -47,20 +47,27 @@ class HomeController extends Controller
     public function store(Request $request)
     {
         $validatedData = $request->validate([
-            'name' => 'required|max:255',
-            'nik' => 'required|numeric',
-            'email' => 'required|email|max:255|unique:users',
-            'password' => 'required|max:255',
+            'nama' => 'required|string|max:255',
+            'email' => 'required|string|email|max:255|unique:users',
+            'jenis_kelamin' => 'required|string|in:Laki-laki,Perempuan',
+            'umur' => 'required|integer|min:1|max:120',
+            'berat_badan' => 'required|integer|min:1|max:300',
+            'tinggi_badan' => 'required|integer|min:30|max:300',
+            'password' => 'required|string',
         ]);
 
-        $validatedDataUser['name'] = $validatedData['name'];
-        $validatedDataUser['nik'] = $validatedData['nik'];
-        $validatedDataUser['email'] = $validatedData['email'];
-        $validatedDataUser['password'] = bcrypt($validatedData['password']);
-        $validatedDataUser['role'] = "user";
+        $validatedDataUser = [
+            'nama' => $validatedData['nama'],
+            'email' => $validatedData['email'],
+            'password' => bcrypt($validatedData['password']),
+            'jenis_kelamin' => $validatedData['jenis_kelamin'],
+            'umur' => $validatedData['umur'],
+            'berat_badan' => $validatedData['berat_badan'],
+            'tinggi_badan' => $validatedData['tinggi_badan'],
+        ];
 
         User::create($validatedDataUser);
 
-        return redirect(route('login'))->with('pesan', 'Anda berhasil registrasi');
+        return redirect(route('login'))->with('success', 'Anda berhasil registrasi');
     }
 }
