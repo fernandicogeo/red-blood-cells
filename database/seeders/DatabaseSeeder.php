@@ -38,16 +38,29 @@ class DatabaseSeeder extends Seeder
             ]);
         }
 
-        DB::table('users')->insert([
-            'nama' => 'Fernandico Geovardo',
-            'email' => 'fernandico.geovardo01@gmail.com',
-            'password' => bcrypt('123'),
-            'jenis_kelamin' => 'Laki-laki',
-            'umur' => 21,
-            'berat_badan' => 64,
-            'tinggi_badan' => 170,
-            'imt' => 22.15,
-            'kategori_imt' => 'Normal'
-        ]);
+        DB::table('users')->insert(
+            [
+                'nama' => 'Fernandico Geovardo',
+                'email' => 'fernandico.geovardo01@gmail.com',
+                'password' => bcrypt('123'),
+                'jenis_kelamin' => 'Laki-laki',
+                'umur' => 21,
+                'berat_badan' => 64,
+                'tinggi_badan' => 170,
+                'imt' => 22.15,
+                'kategori_imt' => 'Normal'
+            ],
+            [
+                'nama' => 'Amira',
+                'email' => 'amiratunrofilah.rfh@gmail.com',
+                'password' => bcrypt('amiraamira0311'),
+                'jenis_kelamin' => 'Perempuan',
+                'umur' => 20,
+                'berat_badan' => 44,
+                'tinggi_badan' => 149,
+                'imt' => 19.82,
+                'kategori_imt' => 'Normal'
+            ],
+        );
     }
 }
