@@ -13,14 +13,28 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        $json = File::get("database/seeders/data/penukar.json");
-        $data = json_decode($json);
+        $jsonPenukar = File::get("database/seeders/data/penukar.json");
+        $dataPenukar = json_decode($jsonPenukar);
 
-        foreach ($data as $obj) {
+        foreach ($dataPenukar as $penukar) {
             DB::table('penukars')->insert([
-                'bahan_makanan' => $obj->bahan_makanan,
-                'berat' => $obj->berat,
-                'urt' => $obj->urt
+                'bahan_makanan' => $penukar->bahan_makanan,
+                'berat' => $penukar->berat,
+                'urt' => $penukar->urt
+            ]);
+        }
+
+        $jsonMakanan = File::get("database/seeders/data/makanan.json");
+        $dataMakanan = json_decode($jsonMakanan);
+
+        foreach ($dataMakanan as $makanan) {
+            DB::table('makanans')->insert([
+                'bahan_makanan' => $makanan->bahan_makanan,
+                'energi' => $makanan->energi,
+                'protein' => $makanan->protein,
+                'lemak' => $makanan->lemak,
+                'kh' => $makanan->kh,
+                'fe' => $makanan->fe,
             ]);
         }
     }

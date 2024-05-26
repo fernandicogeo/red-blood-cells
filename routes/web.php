@@ -14,5 +14,7 @@ Route::post('/logout', [DashboardController::class, 'logout'])->name('logout');
 
 Route::middleware('auth:web')->group(function () {
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+    Route::get('/form', [DashboardController::class, 'form'])->name('form.recall');
+    Route::post('/form', [DashboardController::class, 'store'])->name('store.recall');
     Route::post('/logout', [DashboardController::class, 'logout'])->name('logout');
 });

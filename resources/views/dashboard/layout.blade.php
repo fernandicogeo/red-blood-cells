@@ -53,10 +53,10 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{ route('dashboard') }}" class="nav-link">
+                <a href="{{ route('form.recall') }}" class="nav-link">
                   <i class="bi bi-archive-fill"></i>
                   <p>
-                    Data Pasien
+                    Form Recall Makanan
                   </p>
                 </a>
               </li>
