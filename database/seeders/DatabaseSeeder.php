@@ -2,7 +2,8 @@
 
 namespace Database\Seeders;
 
-// use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\File;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -12,11 +13,15 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // \App\Models\User::factory(10)->create();
+        $json = File::get("database/seeders/data/penukar.json");
+        $data = json_decode($json);
 
-        // \App\Models\User::factory()->create([
-        //     'name' => 'Test User',
-        //     'email' => 'test@example.com',
-        // ]);
+        foreach ($data as $obj) {
+            DB::table('penukars')->insert([
+                'bahan_makanan' => $obj->bahan_makanan,
+                'berat' => $obj->berat,
+                'urt' => $obj->urt
+            ]);
+        }
     }
 }

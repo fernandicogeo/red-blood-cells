@@ -32,7 +32,7 @@ class HomeController extends Controller
         if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
             if (Auth::guard('web')->attempt(['email' => $email, 'password' => $credentials['password']])) {
                 $request->session()->regenerate();
-                return redirect(route('dashboard'));
+                return redirect(route('dashboard'))->with('success', 'Anda berhasil login');
             }
         }
 
