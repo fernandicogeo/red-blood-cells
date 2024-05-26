@@ -61,14 +61,14 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{ route('dashboard') }}" class="nav-link">
+                <a href="{{ route('hasil.recall') }}" class="nav-link">
                   <i class="bi bi-archive-fill"></i>
                   <p>
-                    Data Dokter
+                    Hasil Recall Makanan
                   </p>
                 </a>
               </li> 
-              <li class="nav-item">
+              {{-- <li class="nav-item">
                 <a href="{{ route('dashboard') }}" class="nav-link">
                   <i class="bi bi-archive-fill"></i>
                   <p>
@@ -83,7 +83,7 @@
                     Appointment
                   </p>
                 </a>
-              </li>
+              </li> --}}
           @endauth
         </ul>
       </nav>

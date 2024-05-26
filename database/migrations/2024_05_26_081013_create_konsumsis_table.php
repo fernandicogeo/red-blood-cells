@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('user_id');
             $table->string('waktu_makan');
             $table->string('makanan_id');
+            $table->string('recall_id')->nullable();
             $table->decimal('jumlah', 8, 2);
             $table->timestamps();
         });

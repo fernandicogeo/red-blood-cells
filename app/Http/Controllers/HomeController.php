@@ -56,6 +56,17 @@ class HomeController extends Controller
             'password' => 'required|string',
         ]);
 
+
+        $imt = $validatedData['berat_badan'] / (($validatedData['tinggi_badan'] / 100) * ($validatedData['tinggi_badan'] / 100));
+
+        $kategori_imt = '';
+
+        if ($imt < 18.5) $kategori_imt = "Underweight";
+        else if ($imt >= 18.5 && $imt < 23) $kategori_imt = "Normal";
+        else if ($imt >= 23 && $imt < 25) $kategori_imt = "Overweight";
+        else if ($imt >= 25 && $imt < 30) $kategori_imt = "Obesitas 1";
+        else if ($imt >= 30) $kategori_imt = "Obesitas 2";
+
         $validatedDataUser = [
             'nama' => $validatedData['nama'],
             'email' => $validatedData['email'],
@@ -64,6 +75,8 @@ class HomeController extends Controller
             'umur' => $validatedData['umur'],
             'berat_badan' => $validatedData['berat_badan'],
             'tinggi_badan' => $validatedData['tinggi_badan'],
+            'imt' => $imt,
+            'kategori_imt' => $kategori_imt
         ];
 
         User::create($validatedDataUser);

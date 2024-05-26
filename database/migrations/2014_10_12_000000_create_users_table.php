@@ -18,9 +18,11 @@ return new class extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->string('jenis_kelamin');
-            $table->integer('umur');
-            $table->integer('berat_badan');
-            $table->integer('tinggi_badan');
+            $table->double('umur');
+            $table->double('berat_badan');
+            $table->double('tinggi_badan');
+            $table->decimal('imt', 8, 2);
+            $table->string('kategori_imt');
             $table->rememberToken();
             $table->timestamps();
         });

@@ -37,5 +37,17 @@ class DatabaseSeeder extends Seeder
                 'fe' => $makanan->fe,
             ]);
         }
+
+        DB::table('users')->insert([
+            'nama' => 'Fernandico Geovardo',
+            'email' => 'fernandico.geovardo01@gmail.com',
+            'password' => bcrypt('123'),
+            'jenis_kelamin' => 'Laki-laki',
+            'umur' => 21,
+            'berat_badan' => 64,
+            'tinggi_badan' => 170,
+            'imt' => 22.15,
+            'kategori_imt' => 'Normal'
+        ]);
     }
 }
