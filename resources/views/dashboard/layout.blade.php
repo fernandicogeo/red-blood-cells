@@ -48,6 +48,14 @@
                 <a href="{{ route('dashboard') }}" class="nav-link">
                   <i class="bi bi-house-fill"></i>
                   <p>
+                    Materi
+                  </p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{ route('penukar') }}" class="nav-link">
+                  <i class="bi bi-house-fill"></i>
+                  <p>
                     Bahan Penukar
                   </p>
                 </a>

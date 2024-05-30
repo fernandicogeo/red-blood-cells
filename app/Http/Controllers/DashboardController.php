@@ -20,6 +20,12 @@ class DashboardController extends Controller
         return view('dashboard.index', compact('penukars'));
     }
 
+    public function penukar()
+    {
+        $penukars = Penukar::all();
+        return view('dashboard.penukar', compact('penukars'));
+    }
+
     public function form()
     {
         $id = Auth::user()->id;
