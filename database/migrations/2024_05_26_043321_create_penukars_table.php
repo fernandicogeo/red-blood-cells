@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('penukars', function (Blueprint $table) {
             $table->id();
+            $table->string('jenis_makanan');
             $table->string('bahan_makanan');
             $table->string('berat');
             $table->string('urt');

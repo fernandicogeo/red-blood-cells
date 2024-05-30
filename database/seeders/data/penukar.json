@@ -1,562 +1,1142 @@
 [
-    {
-      "bahan_makanan": "Nasi", 
-      "berat": "50 gr", 
+  {
+      "jenis_makanan": "Serealia",
+      "bahan_makanan": "Nasi",
+      "berat": 50,
       "urt": "1 ctg plstk"
-    },
-    {
-      "bahan_makanan": "Nasi", 
-      "berat": "70 gr", 
+  },
+  {
+      "jenis_makanan": "Serealia",
+      "bahan_makanan": "Nasi",
+      "berat": 70,
       "urt": "1 ctg ky"
-    },
-    {
-      "bahan_makanan": "Nasi Goreng", 
-      "berat": "50 gr", 
+  },
+  {
+      "jenis_makanan": "Serealia",
+      "bahan_makanan": "Nasi Goreng",
+      "berat": 50,
       "urt": "1 ctg plstk"
-    },
-    {
-      "bahan_makanan": "Nasi minyak", 
-      "berat": "50 gr", 
+  },
+  {
+      "jenis_makanan": "Serealia",
+      "bahan_makanan": "Nasi minyak",
+      "berat": 50,
       "urt": "1 ctg plstk"
-    },
-    {
-      "bahan_makanan": "Nasi gemuk", 
-      "berat": "50 gr", 
+  },
+  {
+      "jenis_makanan": "Serealia",
+      "bahan_makanan": "Nasi gemuk",
+      "berat": 50,
       "urt": "1 ctg plstk"
-    },
-    {
-      "bahan_makanan": "Bubur Ayam", 
-      "berat": "300 gr", 
+  },
+  {
+      "jenis_makanan": "Serealia",
+      "bahan_makanan": "Bubur Ayam",
+      "berat": 300,
       "urt": "1 prs"
-    },
-    {
-      "bahan_makanan": "Bubur Kacang Hijau", 
-      "berat": "100 gr", 
+  },
+  {
+      "jenis_makanan": "Serealia",
+      "bahan_makanan": "Bubur Kacang Hijau",
+      "berat": 100,
       "urt": "1 prs"
-    },
-    {
-      "bahan_makanan": "Bubur Ketan Hitam", 
-      "berat": "100 gr", 
+  },
+  {
+      "jenis_makanan": "Serealia",
+      "bahan_makanan": "Bubur Ketan Hitam",
+      "berat": 100,
       "urt": "1 prs"
-    },
-    {
-      "bahan_makanan": "Bubur Sumsum", 
-      "berat": "150 gr", 
+  },
+  {
+      "jenis_makanan": "Serealia",
+      "bahan_makanan": "Bubur Sumsum",
+      "berat": 150,
       "urt": "1 prs"
-    },
-    {
-      "bahan_makanan": "Mie Ayam", 
-      "berat": "300 gr", 
+  },
+  {
+      "jenis_makanan": "Serealia",
+      "bahan_makanan": "Lontong",
+      "berat": 90,
       "urt": "1 prs"
-    },
-    {
-      "bahan_makanan": "Mie bakso", 
-      "berat": "400 gr", 
+  },
+  {
+      "jenis_makanan": "Serealia",
+      "bahan_makanan": "Ketupat",
+      "berat": 180,
+      "urt": "1 bh kcl"
+  },
+  {
+      "jenis_makanan": "Serealia",
+      "bahan_makanan": "Mie Ayam",
+      "berat": 300,
       "urt": "1 prs"
-    },
-    {
-      "bahan_makanan": "Mie", 
-      "berat": "100 gr", 
+  },
+  {
+      "jenis_makanan": "Serealia",
+      "bahan_makanan": "Mie bakso",
+      "berat": 400,
       "urt": "1 prs"
-    },
-    {
-      "bahan_makanan": "Spaghetti", 
-      "berat": "300 gr", 
+  },
+  {
+      "jenis_makanan": "Serealia",
+      "bahan_makanan": "Mie",
+      "berat": 100,
       "urt": "1 prs"
-    },
-    {
-      "bahan_makanan": "Bihun goreng", 
-      "berat": "50 gr", 
+  },
+  {
+      "jenis_makanan": "Serealia",
+      "bahan_makanan": "Spaghetti",
+      "berat": 300,
+      "urt": "1 prs"
+  },
+  {
+      "jenis_makanan": "Serealia",
+      "bahan_makanan": "Bihun goreng",
+      "berat": 50,
       "urt": "1/2 gls"
-    },
-    {
-      "bahan_makanan": "Bihun goreng", 
-      "berat": "250 gr", 
+  },
+  {
+      "jenis_makanan": "Serealia",
+      "bahan_makanan": "Bihun goreng",
+      "berat": 250,
       "urt": "1 prs"
-    },
-    {
-      "bahan_makanan": "Roti putih", 
-      "berat": "70 gr", 
+  },
+  {
+      "jenis_makanan": "Serealia",
+      "bahan_makanan": "Roti putih",
+      "berat": 70,
       "urt": "3 ptg"
-    },
-    {
-      "bahan_makanan": "Roti isi kacang hijau", 
-      "berat": "75 gr", 
+  },
+  {
+      "jenis_makanan": "Serealia",
+      "bahan_makanan": "Roti isi kacang hijau",
+      "berat": 75,
       "urt": "1 bh"
-    },
-    {
-      "bahan_makanan": "Roti isi nanas/strawberry", 
-      "berat": "75 gr", 
+  },
+  {
+      "jenis_makanan": "Serealia",
+      "bahan_makanan": "Roti isi nanas/strawberry",
+      "berat": 75,
       "urt": "1 bh"
-    },
-    {
-      "bahan_makanan": "Roti isi coklat/kukis/roti bakar", 
-      "berat": "75 gr", 
+  },
+  {
+      "jenis_makanan": "Serealia",
+      "bahan_makanan": "Roti isi coklat/kukis/roti bakar",
+      "berat": 75,
       "urt": "1 bh"
-    },
-    {
-      "bahan_makanan": "Roti keju", 
-      "berat": "75 gr", 
+  },
+  {
+      "jenis_makanan": "Serealia",
+      "bahan_makanan": "Roti keju",
+      "berat": 75,
       "urt": "1 bh"
-    },
-    {
-      "bahan_makanan": "Roti sisir mentega/bolu lapis", 
-      "berat": "70 gr", 
+  },
+  {
+      "jenis_makanan": "Serealia",
+      "bahan_makanan": "Roti sisir mentega/bolu lapis",
+      "berat": 70,
       "urt": "3 ptg"
-    },
-    {
-      "bahan_makanan": "Roti pisang", 
-      "berat": "75 gr", 
+  },
+  {
+      "jenis_makanan": "Serealia",
+      "bahan_makanan": "Roti pisang",
+      "berat": 75,
       "urt": "1 bh"
-    },
-    {
-      "bahan_makanan": "Biskuit", 
-      "berat": "10 gr", 
+  },
+  {
+      "jenis_makanan": "Serealia",
+      "bahan_makanan": "Biskuit",
+      "berat": 10,
       "urt": "1 bh"
-    },
-    {
-      "bahan_makanan": "Bakwan", 
-      "berat": "50 gr", 
+  },
+  {
+      "jenis_makanan": "Serealia",
+      "bahan_makanan": "Jagung",
+      "berat": 35,
+      "urt": "1 ptg"
+  },
+  {
+      "jenis_makanan": "Serealia",
+      "bahan_makanan": "Bakwan",
+      "berat": 50,
       "urt": "1 bh"
-    },
-    {
-      "bahan_makanan": "Singkong kukus", 
-      "berat": "50 gr", 
+  },
+  {
+      "jenis_makanan": "Serealia",
+      "bahan_makanan": "Martabak manis",
+      "berat": 55,
+      "urt": "1 ptg"
+  },
+  {
+      "jenis_makanan": "Serealia",
+      "bahan_makanan": "Martabak telur/india",
+      "berat": 40,
+      "urt": "1 ptg"
+  },
+  {
+      "jenis_makanan": "Serealia",
+      "bahan_makanan": "Bakpia",
+      "berat": 50,
+      "urt": "2 bh"
+  },
+  {
+      "jenis_makanan": "Serealia",
+      "bahan_makanan": "Kue sus",
+      "berat": 70,
+      "urt": "1 prs"
+  },
+  {
+      "jenis_makanan": "Serealia",
+      "bahan_makanan": "Putu sopa",
+      "berat": 20,
+      "urt": "2 bh"
+  },
+  {
+      "jenis_makanan": "Serealia",
+      "bahan_makanan": "Srikaya ketan",
+      "berat": 60,
+      "urt": "1 prs"
+  },
+  {
+      "jenis_makanan": "Serealia",
+      "bahan_makanan": "Lapis legit",
+      "berat": 25,
+      "urt": "1 ptg"
+  },
+  {
+      "jenis_makanan": "Serealia",
+      "bahan_makanan": "Lupis ketan",
+      "berat": 120,
+      "urt": "1 prs"
+  },
+  {
+      "jenis_makanan": "Serealia",
+      "bahan_makanan": "Onde-onde",
+      "berat": 20,
+      "urt": "2 bh"
+  },
+  {
+      "jenis_makanan": "Serealia",
+      "bahan_makanan": "Pastel",
+      "berat": 50,
+      "urt": "1 bh"
+  },
+  {
+      "jenis_makanan": "Umbi-umbian",
+      "bahan_makanan": "Perkedel kentang",
+      "berat": 10,
       "urt": "1 bh kcl"
-    },
-    {
-      "bahan_makanan": "Ubi jalar kuning kukus", 
-      "berat": "100 gr", 
-      "urt": "1 bh kcl"
-    },
-    {
-      "bahan_makanan": "Ubi jalar ungu kukus", 
-      "berat": "80 gr", 
-      "urt": "1 bh kcl"
-    },
-    {
-      "bahan_makanan": "Getuk singkong", 
-      "berat": "40 gr", 
+  },
+  {
+      "jenis_makanan": "Umbi-umbian",
+      "bahan_makanan": "Kentang rebus",
+      "berat": 75,
       "urt": "1 bh"
-    },
-    {
-      "bahan_makanan": "Keripik singkong", 
-      "berat": "30 gr", 
+  },
+  {
+      "jenis_makanan": "Umbi-umbian",
+      "bahan_makanan": "Kentang goreng",
+      "berat": 100,
+      "urt": "1 prs"
+  },
+  {
+      "jenis_makanan": "Umbi-umbian",
+      "bahan_makanan": "Singkong kukus",
+      "berat": 50,
+      "urt": "1 bh kcl"
+  },
+  {
+      "jenis_makanan": "Umbi-umbian",
+      "bahan_makanan": "Ubi jalar kuning kukus",
+      "berat": 100,
+      "urt": "1 bh kcl"
+  },
+  {
+      "jenis_makanan": "Umbi-umbian",
+      "bahan_makanan": "Ubi jalar ungu kukus",
+      "berat": 80,
+      "urt": "1 bh kcl"
+  },
+  {
+      "jenis_makanan": "Umbi-umbian",
+      "bahan_makanan": "Getuk singkong",
+      "berat": 40,
+      "urt": "1 bh"
+  },
+  {
+      "jenis_makanan": "Umbi-umbian",
+      "bahan_makanan": "Keripik singkong",
+      "berat": 30,
       "urt": "1 ggm"
-    },
-    {
-      "bahan_makanan": "Kerupuk kemplang ikan", 
-      "berat": "5 gr", 
-      "urt": "1 bh"
-    },
-    {
-      "bahan_makanan": "Kerupuk kemplang panggang", 
-      "berat": "5 gr", 
-      "urt": "1 bh"
-    },
-    {
-      "bahan_makanan": "Kerupuk udang", 
-      "berat": "5 gr", 
-      "urt": "1 bh"
-    },
-    {
-      "bahan_makanan": "Tapai singkong", 
-      "berat": "50 gr", 
+  },
+  {
+      "jenis_makanan": "Umbi-umbian",
+      "bahan_makanan": "Tapai singkong",
+      "berat": 50,
       "urt": "1 bh kcl"
-    },
-    {
-      "bahan_makanan": "Martabak manis", 
-      "berat": "55 gr", 
+  },
+  {
+      "jenis_makanan": "Kacang-kacangan",
+      "bahan_makanan": "Martabak manis",
+      "berat": 55,
       "urt": "1 ptg"
-    },
-    {
-      "bahan_makanan": "Martabak telur/india", 
-      "berat": "40 gr", 
+  },
+  {
+      "jenis_makanan": "Kacang-kacangan",
+      "bahan_makanan": "Martabak telur/india",
+      "berat": 40,
       "urt": "1 ptg"
-    },
-    {
-      "bahan_makanan": "Lontong", 
-      "berat": "90 gr", 
-      "urt": "1 prs"
-    },
-    {
-      "bahan_makanan": "Ketupat", 
-      "berat": "180 gr", 
-      "urt": "1 bh kcl"
-    },
-    {
-      "bahan_makanan": "Perkedel kentang", 
-      "berat": "10 gr", 
-      "urt": "1 bh kcl"
-    },
-    {
-      "bahan_makanan": "Kentang rebus", 
-      "berat": "75 gr", 
-      "urt": "1 bh"
-    },
-    {
-      "bahan_makanan": "Kentang goreng", 
-      "berat": "100 gr", 
-      "urt": "1 prs"
-    },
-    {
-      "bahan_makanan": "Kacang tanah goreng", 
-      "berat": "15 gr", 
+  },
+  {
+      "jenis_makanan": "Kacang-kacangan",
+      "bahan_makanan": "Kacang tanah goreng",
+      "berat": 15,
       "urt": "2 sdm"
-    },
-    {
-      "bahan_makanan": "Kacang tanah rebus", 
-      "berat": "15 gr", 
+  },
+  {
+      "jenis_makanan": "Kacang-kacangan",
+      "bahan_makanan": "Kacang tanah rebus",
+      "berat": 15,
       "urt": "2 sdm"
-    },
-    {
-      "bahan_makanan": "Kacang sukro", 
-      "berat": "15 gr", 
+  },
+  {
+      "jenis_makanan": "Kacang-kacangan",
+      "bahan_makanan": "Kacang sukro",
+      "berat": 15,
       "urt": "2 sdm"
-    },
-    {
-      "bahan_makanan": "Oncom", 
-      "berat": "40 gr", 
+  },
+  {
+      "jenis_makanan": "Kacang-kacangan",
+      "bahan_makanan": "Oncom",
+      "berat": 40,
       "urt": "1 bh"
-    },
-    {
-      "bahan_makanan": "Peyek kacang tanah", 
-      "berat": "15 gr", 
+  },
+  {
+      "jenis_makanan": "Kacang-kacangan",
+      "bahan_makanan": "Peyek kacang tanah",
+      "berat": 15,
       "urt": "1 bh"
-    },
-    {
-      "bahan_makanan": "Tahu goreng", 
-      "berat": "110 gr", 
+  },
+  {
+      "jenis_makanan": "Kacang-kacangan",
+      "bahan_makanan": "Tahu goreng",
+      "berat": 110,
       "urt": "1 bh bsr"
-    },
-    {
-      "bahan_makanan": "Tahu rebus", 
-      "berat": "110 gr", 
+  },
+  {
+      "jenis_makanan": "Kacang-kacangan",
+      "bahan_makanan": "Tahu rebus",
+      "berat": 110,
       "urt": "1 bh bsr"
-    },
-    {
-      "bahan_makanan": "Tempe goreng", 
-      "berat": "50 gr", 
+  },
+  {
+      "jenis_makanan": "Kacang-kacangan",
+      "bahan_makanan": "Tempe goreng",
+      "berat": 50,
       "urt": "2 ptg sdg"
-    },
-    {
-      "bahan_makanan": "Susu kedelai", 
-      "berat": "200 gr", 
+  },
+  {
+      "jenis_makanan": "Kacang-kacangan",
+      "bahan_makanan": "Susu kedelai",
+      "berat": 200,
       "urt": "1 gls"
-    },
-    {
-      "bahan_makanan": "Sayur bayam", 
-      "berat": "100 gr", 
+  },
+  {
+      "jenis_makanan": "Kacang-kacangan",
+      "bahan_makanan": "Dodol banjarmasin",
+      "berat": 20,
+      "urt": "1 bh"
+  },
+  {
+      "jenis_makanan": "Sayuran",
+      "bahan_makanan": "Sayur bayam",
+      "berat": 100,
       "urt": "1 prs"
-    },
-    {
-      "bahan_makanan": "Sayur buncis", 
-      "berat": "25 gr", 
+  },
+  {
+      "jenis_makanan": "Sayuran",
+      "bahan_makanan": "Sayur buncis",
+      "berat": 25,
       "urt": "5 bh"
-    },
-    {
-      "bahan_makanan": "Sayur katuk", 
-      "berat": "100 gr", 
+  },
+  {
+      "jenis_makanan": "Sayuran",
+      "bahan_makanan": "Sayur katuk",
+      "berat": 100,
       "urt": "1 prs"
-    },
-    {
-      "bahan_makanan": "Sayur daun kelor", 
-      "berat": "100 gr", 
+  },
+  {
+      "jenis_makanan": "Sayuran",
+      "bahan_makanan": "Sayur daun kelor",
+      "berat": 100,
       "urt": "1 prs"
-    },
-    {
-      "bahan_makanan": "Tumis kacang panjang", 
-      "berat": "100 gr", 
+  },
+  {
+      "jenis_makanan": "Sayuran",
+      "bahan_makanan": "Tumis Kacang panjang",
+      "berat": 100,
       "urt": "1 prs"
-    },
-    {
-      "bahan_makanan": "Tumis kangkung", 
-      "berat": "100 gr", 
+  },
+  {
+      "jenis_makanan": "Sayuran",
+      "bahan_makanan": "Tumis kangkung",
+      "berat": 100,
       "urt": "1 prs"
-    },
-    {
-      "bahan_makanan": "Gulai daun singkong", 
-      "berat": "200 gr", 
+  },
+  {
+      "jenis_makanan": "Sayuran",
+      "bahan_makanan": "Gulai daun singkong",
+      "berat": 200,
       "urt": "1 prs"
-    },
-    {
-      "bahan_makanan": "Terong", 
-      "berat": "15 gr", 
+  },
+  {
+      "jenis_makanan": "Sayuran",
+      "bahan_makanan": "Terong",
+      "berat": 15,
       "urt": "1 ptg"
-    },
-    {
-      "bahan_makanan": "Tumis tauge", 
-      "berat": "65 gr", 
+  },
+  {
+      "jenis_makanan": "Sayuran",
+      "bahan_makanan": "Tumis tauge",
+      "berat": 65,
       "urt": "1 prs"
-    },
-    {
-      "bahan_makanan": "Tumis tauge", 
-      "berat": "10 gr", 
+  },
+  {
+      "jenis_makanan": "Sayuran",
+      "bahan_makanan": "Tumis tauge",
+      "berat": 10,
       "urt": "1 sdm"
-    },
-    {
-      "bahan_makanan": "Tauge", 
-      "berat": "10 gr", 
+  },
+  {
+      "jenis_makanan": "Sayuran",
+      "bahan_makanan": "Tauge",
+      "berat": 10,
       "urt": "1 sdm"
-    },
-    {
-      "bahan_makanan": "Jagung", 
-      "berat": "35 gr", 
-      "urt": "1 ptg"
-    },
-    {
-      "bahan_makanan": "Jagung popcorn", 
-      "berat": "100 gr", 
-      "urt": "1 prs"
-    },
-    {
-      "bahan_makanan": "Wortel", 
-      "berat": "10 gr", 
+  },
+  {
+      "jenis_makanan": "Sayuran",
+      "bahan_makanan": "Wortel",
+      "berat": 10,
       "urt": "1 sdm"
-    },
-    {
-      "bahan_makanan": "Tumis sawi", 
-      "berat": "100 gr", 
+  },
+  {
+      "jenis_makanan": "Sayuran",
+      "bahan_makanan": "Tumis sawi",
+      "berat": 100,
       "urt": "1 prs"
-    },
-    {
-      "bahan_makanan": "Cap cai", 
-      "berat": "100 gr", 
+  },
+  {
+      "jenis_makanan": "Sayuran",
+      "bahan_makanan": "Cap cai",
+      "berat": 100,
       "urt": "1 prs"
-    },
-    {
-      "bahan_makanan": "Gado-gado", 
-      "berat": "150 gr", 
+  },
+  {
+      "jenis_makanan": "Sayuran",
+      "bahan_makanan": "Gado-gado",
+      "berat": 150,
       "urt": "1 prs"
-    },
-    {
-      "bahan_makanan": "Gudeg", 
-      "berat": "150 gr", 
+  },
+  {
+      "jenis_makanan": "Sayuran",
+      "bahan_makanan": "Gudeg",
+      "berat": 150,
       "urt": "1 prs"
-    },
-    {
-      "bahan_makanan": "Sayur asem", 
-      "berat": "250 gr", 
+  },
+  {
+      "jenis_makanan": "Sayuran",
+      "bahan_makanan": "Sayur asem",
+      "berat": 250,
       "urt": "1 prs"
-    },
-    {
-      "bahan_makanan": "Sayur sop", 
-      "berat": "250 gr", 
+  },
+  {
+      "jenis_makanan": "Sayuran",
+      "bahan_makanan": "Sayur sop",
+      "berat": 250,
       "urt": "1 prs"
-    },
-    {
-      "bahan_makanan": "Alpukat", 
-      "berat": "130 gr", 
+  },
+  {
+      "jenis_makanan": "Sayuran",
+      "bahan_makanan": "Kol sawi",
+      "berat": 100,
+      "urt": "1 prs"
+  },
+  {
+      "jenis_makanan": "Sayuran",
+      "bahan_makanan": "Kubis",
+      "berat": 100,
+      "urt": "1 prs"
+  },
+  {
+      "jenis_makanan": "Sayuran",
+      "bahan_makanan": "Jagung muda",
+      "berat": 100,
+      "urt": "1 prs"
+  },
+  {
+      "jenis_makanan": "Sayuran",
+      "bahan_makanan": "Jamur encik",
+      "berat": 10,
+      "urt": "1 sdm"
+  },
+  {
+      "jenis_makanan": "Sayuran",
+      "bahan_makanan": "Jamur kuping",
+      "berat": 10,
+      "urt": "1 sdm"
+  },
+  {
+      "jenis_makanan": "Sayuran",
+      "bahan_makanan": "Jamur tiram",
+      "berat": 10,
+      "urt": "1 sdm"
+  },
+  {
+      "jenis_makanan": "Sayuran",
+      "bahan_makanan": "Jengkol",
+      "berat": 10,
+      "urt": "1 sdm"
+  },
+  {
+      "jenis_makanan": "Sayuran",
+      "bahan_makanan": "Semur jengkol",
+      "berat": 100,
+      "urt": "1 prs"
+  },
+  {
+      "jenis_makanan": "Sayuran",
+      "bahan_makanan": "Petai",
+      "berat": 55,
+      "urt": "1/2 gls"
+  },
+  {
+      "jenis_makanan": "Sayuran",
+      "bahan_makanan": "Ketimun",
+      "berat": 10,
+      "urt": "1 sdm"
+  },
+  {
+      "jenis_makanan": "Sayuran",
+      "bahan_makanan": "Kembang kol",
+      "berat": 10,
+      "urt": "1 sdm"
+  },
+  {
+      "jenis_makanan": "Sayuran",
+      "bahan_makanan": "Labu air",
+      "berat": 50,
+      "urt": "1 bh kcl"
+  },
+  {
+      "jenis_makanan": "Sayuran",
+      "bahan_makanan": "Labu siam",
+      "berat": 50,
+      "urt": "1 bh kcl"
+  },
+  {
+      "jenis_makanan": "Sayuran",
+      "bahan_makanan": "Labu kuning",
+      "berat": 50,
+      "urt": "1 bh kcl"
+  },
+  {
+      "jenis_makanan": "Sayuran",
+      "bahan_makanan": "Selada",
+      "berat": 10,
+      "urt": "1 sdm"
+  },
+  {
+      "jenis_makanan": "Sayuran",
+      "bahan_makanan": "Terong",
+      "berat": 40,
       "urt": "1 bh"
-    },
-    {
-      "bahan_makanan": "Anggur", 
-      "berat": "120 gr", 
+  },
+  {
+      "jenis_makanan": "Sayuran",
+      "bahan_makanan": "Terong panjang",
+      "berat": 50,
+      "urt": "1 bh"
+  },
+  {
+      "jenis_makanan": "Sayuran",
+      "bahan_makanan": "Tomat",
+      "berat": 50,
+      "urt": "1 bh"
+  },
+  {
+      "jenis_makanan": "Buah",
+      "bahan_makanan": "Alpukat",
+      "berat": 130,
+      "urt": "1 bh"
+  },
+  {
+      "jenis_makanan": "Buah",
+      "bahan_makanan": "Anggur",
+      "berat": 120,
       "urt": "10 bh"
-    },
-    {
-      "bahan_makanan": "Apel", 
-      "berat": "120 gr", 
+  },
+  {
+      "jenis_makanan": "Buah",
+      "bahan_makanan": "Apel",
+      "berat": 120,
       "urt": "1 bh sdg"
-    },
-    {
-      "bahan_makanan": "Belimbing", 
-      "berat": "150 gr", 
+  },
+  {
+      "jenis_makanan": "Buah",
+      "bahan_makanan": "Belimbing",
+      "berat": 150,
       "urt": "1 bh"
-    },
-    {
-      "bahan_makanan": "Buah naga merah", 
-      "berat": "80 gr", 
+  },
+  {
+      "jenis_makanan": "Buah",
+      "bahan_makanan": "Buah Naga Merah",
+      "berat": 80,
       "urt": "1 ptg sdg"
-    },
-    {
-      "bahan_makanan": "Buah naga putih", 
-      "berat": "80 gr", 
+  },
+  {
+      "jenis_makanan": "Buah",
+      "bahan_makanan": "Buah Naga Putih",
+      "berat": 80,
       "urt": "1 ptg sdg"
-    },
-    {
-      "bahan_makanan": "Cempedak", 
-      "berat": "30 gr", 
+  },
+  {
+      "jenis_makanan": "Buah",
+      "bahan_makanan": "Cempedak",
+      "berat": 30,
       "urt": "1 bj"
-    },
-    {
-      "bahan_makanan": "Duku", 
-      "berat": "100 gr", 
+  },
+  {
+      "jenis_makanan": "Buah",
+      "bahan_makanan": "Duku",
+      "berat": 100,
       "urt": "10 bh"
-    },
-    {
-      "bahan_makanan": "Durian", 
-      "berat": "30 gr", 
+  },
+  {
+      "jenis_makanan": "Buah",
+      "bahan_makanan": "Durian",
+      "berat": 30,
       "urt": "1 bj"
-    },
-    {
-      "bahan_makanan": "Jambu air", 
-      "berat": "140 gr", 
-      "urt": "5 bh"
-    },
-    {
-      "bahan_makanan": "Jambu biji", 
-      "berat": "250 gr", 
+  },
+  {
+    "jenis_makanan": "Buah",
+    "bahan_makanan": "Jambu air",
+    "berat": 140,
+    "urt": "5 bh"
+  },
+  {
+      "jenis_makanan": "Buah",
+      "bahan_makanan": "Jambu biji",
+      "berat": 250,
       "urt": "1 bh sdg"
-    },
-    {
-      "bahan_makanan": "Jambu bol", 
-      "berat": "150 gr", 
+  },
+  {
+      "jenis_makanan": "Buah",
+      "bahan_makanan": "Jambu bol",
+      "berat": 150,
       "urt": "1 bh sdg"
-    },
-    {
-      "bahan_makanan": "Jambu monyet", 
-      "berat": "150 gr", 
+  },
+  {
+      "jenis_makanan": "Buah",
+      "bahan_makanan": "Jambu monyet",
+      "berat": 150,
       "urt": "1 bh sdg"
-    },
-    {
-      "bahan_makanan": "Jeruk", 
-      "berat": "60 gr", 
+  },
+  {
+      "jenis_makanan": "Buah",
+      "bahan_makanan": "Jeruk",
+      "berat": 60,
       "urt": "1 bh"
-    },
-    {
-      "bahan_makanan": "Mangga", 
-      "berat": "150 gr", 
+  },
+  {
+      "jenis_makanan": "Buah",
+      "bahan_makanan": "Lemon",
+      "berat": 60,
       "urt": "1 bh"
-    },
-    {
-      "bahan_makanan": "Manggis", 
-      "berat": "40 gr", 
+  },
+  {
+      "jenis_makanan": "Buah",
+      "bahan_makanan": "Mangga",
+      "berat": 150,
       "urt": "1 bh"
-    },
-    {
-      "bahan_makanan": "Melon", 
-      "berat": "100 gr", 
+  },
+  {
+      "jenis_makanan": "Buah",
+      "bahan_makanan": "Manggis",
+      "berat": 40,
+      "urt": "1 bh"
+  },
+  {
+      "jenis_makanan": "Buah",
+      "bahan_makanan": "Melon",
+      "berat": 100,
       "urt": "1 ptg bsr"
-    },
-    {
-      "bahan_makanan": "Nanas", 
-      "berat": "100 gr", 
+  },
+  {
+      "jenis_makanan": "Buah",
+      "bahan_makanan": "Nanas",
+      "berat": 100,
       "urt": "1 ptg sdg"
-    },
-    {
-      "bahan_makanan": "Pepaya", 
-      "berat": "100 gr", 
+  },
+  {
+      "jenis_makanan": "Buah",
+      "bahan_makanan": "Nangka",
+      "berat": 45,
+      "urt": "3 bh sdg"
+  },
+  {
+      "jenis_makanan": "Buah",
+      "bahan_makanan": "Pepaya",
+      "berat": 100,
       "urt": "1 ptg"
-    },
-    {
-      "bahan_makanan": "Pisang ambon", 
-      "berat": "100 gr", 
+  },
+  {
+      "jenis_makanan": "Buah",
+      "bahan_makanan": "Pisang ambon",
+      "berat": 100,
       "urt": "1 bh"
-    },
-    {
-      "bahan_makanan": "Pisang kepok", 
-      "berat": "100 gr", 
+  },
+  {
+      "jenis_makanan": "Buah",
+      "bahan_makanan": "Pisang kepok",
+      "berat": 100,
       "urt": "1 bh"
-    },
-    {
-      "bahan_makanan": "Pisang mas", 
-      "berat": "20 gr", 
+  },
+  {
+      "jenis_makanan": "Buah",
+      "bahan_makanan": "Pisang mas",
+      "berat": 20,
       "urt": "1 bh"
-    },
-    {
-      "bahan_makanan": "Pisang raja", 
-      "berat": "50 gr", 
+  },
+  {
+      "jenis_makanan": "Buah",
+      "bahan_makanan": "Pisang raja",
+      "berat": 50,
       "urt": "1 bh"
-    },
-    {
-      "bahan_makanan": "Rambutan", 
-      "berat": "50 gr", 
+  },
+  {
+      "jenis_makanan": "Buah",
+      "bahan_makanan": "Rambutan",
+      "berat": 50,
       "urt": "5 bh"
-    },
-    {
-      "bahan_makanan": "Semangka", 
-      "berat": "100 gr", 
+  },
+  {
+      "jenis_makanan": "Buah",
+      "bahan_makanan": "Semangka",
+      "berat": 100,
       "urt": "1 ptg"
-    },
-    {
-      "bahan_makanan": "Salak", 
-      "berat": "40 gr", 
+  },
+  {
+      "jenis_makanan": "Buah",
+      "bahan_makanan": "Sirsak",
+      "berat": 60,
+      "urt": "1/2 bh sdg"
+  },
+  {
+      "jenis_makanan": "Buah",
+      "bahan_makanan": "Salak",
+      "berat": 40,
       "urt": "1 bh sdg"
-    },
-    {
-      "bahan_makanan": "Barongko", 
-      "berat": "40 gr", 
+  },
+  {
+      "jenis_makanan": "Buah",
+      "bahan_makanan": "Sukun",
+      "berat": 150,
+      "urt": "3 ptg"
+  },
+  {
+      "jenis_makanan": "Buah",
+      "bahan_makanan": "Barongko",
+      "berat": 40,
       "urt": "1 bh"
-    },
-    {
-      "bahan_makanan": "Ayam goreng dada atas", 
-      "berat": "60 gr", 
-      "urt": "1 ptg"
-    },
-    {
-      "bahan_makanan": "Ayam goreng dada bawah", 
-      "berat": "50 gr", 
-      "urt": "1 ptg"
-    },
-    {
-      "bahan_makanan": "Ayam goreng sayap", 
-      "berat": "30 gr", 
-      "urt": "1 ptg"
-    },
-    {
-      "bahan_makanan": "Ayam goreng paha atas", 
-      "berat": "40 gr", 
-      "urt": "1 ptg"
-    },
-    {
-      "bahan_makanan": "Ayam goreng paha bawah", 
-      "berat": "30 gr", 
-      "urt": "1 ptg"
-    },
-    {
-      "bahan_makanan": "Ayam goreng paha kepala", 
-      "berat": "60 gr", 
-      "urt": "1 ptg"
-    },
-    {
-      "bahan_makanan": "Ayam goreng ceker", 
-      "berat": "15 gr", 
+  },
+  {
+      "jenis_makanan": "Buah",
+      "bahan_makanan": "Lempog durian",
+      "berat": 20,
       "urt": "1 bh"
-    },
-    {
-      "bahan_makanan": "Hati ayam", 
-      "berat": "30 gr", 
+  },
+  {
+      "jenis_makanan": "Daging&Unggas",
+      "bahan_makanan": "Ayam goreng dada atas",
+      "berat": 60,
       "urt": "1 ptg"
-    },
-    {
-      "bahan_makanan": "Sate hati ayam", 
-      "berat": "30 gr", 
+  },
+  {
+      "jenis_makanan": "Daging&Unggas",
+      "bahan_makanan": "Ayam goreng dada bawah",
+      "berat": 50,
+      "urt": "1 ptg"
+  },
+  {
+      "jenis_makanan": "Daging&Unggas",
+      "bahan_makanan": "Ayam goreng sayap",
+      "berat": 30,
+      "urt": "1 ptg"
+  },
+  {
+      "jenis_makanan": "Daging&Unggas",
+      "bahan_makanan": "Ayam goreng paha atas",
+      "berat": 40,
+      "urt": "1 ptg"
+  },
+  {
+      "jenis_makanan": "Daging&Unggas",
+      "bahan_makanan": "Ayam goreng paha bawah",
+      "berat": 30,
+      "urt": "1 ptg"
+  },
+  {
+      "jenis_makanan": "Daging&Unggas",
+      "bahan_makanan": "Ayam goreng paha kepala",
+      "berat": 60,
+      "urt": "1 ptg"
+  },
+  {
+      "jenis_makanan": "Daging&Unggas",
+      "bahan_makanan": "Ayam goreng ceker",
+      "berat": 15,
+      "urt": "1 bh"
+  },
+  {
+      "jenis_makanan": "Daging&Unggas",
+      "bahan_makanan": "Hati ayam",
+      "berat": 30,
+      "urt": "1 ptg"
+  },
+  {
+      "jenis_makanan": "Daging&Unggas",
+      "bahan_makanan": "Sate hati ayam",
+      "berat": 30,
       "urt": "1 tusuk"
-    },
-    {
-      "bahan_makanan": "Ayam suir", 
-      "berat": "10 gr", 
+  },
+  {
+      "jenis_makanan": "Daging&Unggas",
+      "bahan_makanan": "Ayam suir",
+      "berat": 10,
       "urt": "1 sdm"
-    },
-    {
-      "bahan_makanan": "Bebek", 
-      "berat": "45 gr", 
-      "urt": "1 ptg sdg"
-    },
-    {
-      "bahan_makanan": "Kambing", 
-      "berat": "40 gr", 
+  },
+  {
+      "jenis_makanan": "Daging&Unggas",
+      "bahan_makanan": "Ampela ayam",
+      "berat": 20,
+      "urt": "1 bh"
+  },
+  {
+      "jenis_makanan": "Daging&Unggas",
+      "bahan_makanan": "Usus ayam",
+      "berat": 50,
+      "urt": "1 ptg bsr"
+  },
+  {
+      "jenis_makanan": "Daging&Unggas",
+      "bahan_makanan": "Babi",
+      "berat": 50,
       "urt": "1 ptg"
-    },
-    {
-      "bahan_makanan": "Daging sapi", 
-      "berat": "35 gr", 
+  },
+  {
+      "jenis_makanan": "Daging&Unggas",
+      "bahan_makanan": "Bebek",
+      "berat": 45,
       "urt": "1 ptg sdg"
-    },
-    {
-      "bahan_makanan": "Abon sapi", 
-      "berat": "10 gr", 
+  },
+  {
+      "jenis_makanan": "Daging&Unggas",
+      "bahan_makanan": "Kambing",
+      "berat": 40,
+      "urt": "1 ptg"
+  },
+  {
+      "jenis_makanan": "Daging&Unggas",
+      "bahan_makanan": "Daging sapi",
+      "berat": 35,
+      "urt": "1 ptg sdg"
+  },
+  {
+      "jenis_makanan": "Daging&Unggas",
+      "bahan_makanan": "Abon sapi",
+      "berat": 10,
       "urt": "1 sdm"
-    },
-    {
-      "bahan_makanan": "Kornet sapi", 
-      "berat": "25 gr", 
+  },
+  {
+      "jenis_makanan": "Daging&Unggas",
+      "bahan_makanan": "Kornet sapi",
+      "berat": 25,
       "urt": "1 sdm"
-    },
-    {
-      "bahan_makanan": "Sosis sapi", 
-      "berat": "20 gr", 
-      "urt": "1 bh"}
-  ]
-  
+  },
+  {
+      "jenis_makanan": "Daging&Unggas",
+      "bahan_makanan": "Sosis sapi",
+      "berat": 50,
+      "urt": "1 ptg"
+  },
+  {
+      "jenis_makanan": "Daging&Unggas",
+      "bahan_makanan": "Rendang sapi",
+      "berat": 35,
+      "urt": "1 ptg sdg"
+  },
+  {
+      "jenis_makanan": "Seafood",
+      "bahan_makanan": "Cumi-cumi",
+      "berat": 45,
+      "urt": "1 ptg sdg"
+  },
+  {
+      "jenis_makanan": "Seafood",
+      "bahan_makanan": "Cumi-cumi goreng",
+      "berat": 45,
+      "urt": "1 ptg sdg"
+  },
+  {
+      "jenis_makanan": "Seafood",
+      "bahan_makanan": "Ikan mujahir goreng",
+      "berat": 40,
+      "urt": "1 ekor"
+  },
+  {
+      "jenis_makanan": "Seafood",
+      "bahan_makanan": "Ikan mujahir pepes",
+      "berat": 40,
+      "urt": "1 ekor"
+  },
+  {
+      "jenis_makanan": "Seafood",
+      "bahan_makanan": "Ikan asin",
+      "berat": 15,
+      "urt": "1 ekor"
+  },
+  {
+      "jenis_makanan": "Seafood",
+      "bahan_makanan": "Ikan bandeng",
+      "berat": 40,
+      "urt": "1 ekor"
+  },
+  {
+      "jenis_makanan": "Seafood",
+      "bahan_makanan": "Ikan patin",
+      "berat": 40,
+      "urt": "1 ekor"
+  },
+  {
+      "jenis_makanan": "Seafood",
+      "bahan_makanan": "Ikan mas",
+      "berat": 40,
+      "urt": "1 ekor"
+  },
+  {
+      "jenis_makanan": "Seafood",
+      "bahan_makanan": "Ikan gabus",
+      "berat": 40,
+      "urt": "1 ekor"
+  },
+  {
+      "jenis_makanan": "Seafood",
+      "bahan_makanan": "Ikan mujahir",
+      "berat": 40,
+      "urt": "1 ekor"
+  },
+  {
+      "jenis_makanan": "Seafood",
+      "bahan_makanan": "Ikan kakap",
+      "berat": 40,
+      "urt": "1 ekor"
+  },
+  {
+      "jenis_makanan": "Seafood",
+      "bahan_makanan": "Ikan saluang",
+      "berat": 40,
+      "urt": "1 ekor"
+  },
+  {
+      "jenis_makanan": "Seafood",
+      "bahan_makanan": "Ikan sarden",
+      "berat": 35,
+      "urt": "1/2 ptg sdg"
+  },
+  {
+      "jenis_makanan": "Seafood",
+      "bahan_makanan": "Ikan sepat",
+      "berat": 40,
+      "urt": "1 ekor"
+  },
+  {
+      "jenis_makanan": "Seafood",
+      "bahan_makanan": "Ikan teri",
+      "berat": 15,
+      "urt": "1 ekor"
+  },
+  {
+      "jenis_makanan": "Seafood",
+      "bahan_makanan": "Ikan lele",
+      "berat": 40,
+      "urt": "1 ekor"
+  },
+  {
+      "jenis_makanan": "Seafood",
+      "bahan_makanan": "Ikan tongkol",
+      "berat": 40,
+      "urt": "1 ekor"
+  },
+  {
+      "jenis_makanan": "Seafood",
+      "bahan_makanan": "Sardines dalam kaleng",
+      "berat": 35,
+      "urt": "1/2 ptg sdg"
+  },
+  {
+      "jenis_makanan": "Seafood",
+      "bahan_makanan": "Model",
+      "berat": 50,
+      "urt": "1 prs"
+  },
+  {
+      "jenis_makanan": "Seafood",
+      "bahan_makanan": "Pempek adaan",
+      "berat": 50,
+      "urt": "1 bh"
+  },
+  {
+      "jenis_makanan": "Seafood",
+      "bahan_makanan": "Pempek kapal selam",
+      "berat": 85,
+      "urt": "1 bh"
+  },
+  {
+      "jenis_makanan": "Seafood",
+      "bahan_makanan": "Pempek kulit",
+      "berat": 76,
+      "urt": "1 bh"
+  },
+  {
+      "jenis_makanan": "Seafood",
+      "bahan_makanan": "Pempek telur",
+      "berat": 50,
+      "urt": "1 bh"
+  },
+  {
+      "jenis_makanan": "Seafood",
+      "bahan_makanan": "Pempek tenggiri",
+      "berat": 50,
+      "urt": "1 bh"
+  },
+  {
+      "jenis_makanan": "Seafood",
+      "bahan_makanan": "Tekwan",
+      "berat": 50,
+      "urt": "1 prs"
+  },
+  {
+      "jenis_makanan": "Seafood",
+      "bahan_makanan": "Kepiting",
+      "berat": 55,
+      "urt": "1/3 gls"
+  },
+  {
+      "jenis_makanan": "Seafood",
+      "bahan_makanan": "Kerang",
+      "berat": 90,
+      "urt": "1/2 gls"
+  },
+  {
+      "jenis_makanan": "Seafood",
+      "bahan_makanan": "Rajungan",
+      "berat": 50,
+      "urt": "1 ekor"
+  },
+  {
+      "jenis_makanan": "Seafood",
+      "bahan_makanan": "Udang",
+      "berat": 35,
+      "urt": "5 ekor sdg"
+  },
+  {
+      "jenis_makanan": "Telur",
+      "bahan_makanan": "Telur ayam rebus",
+      "berat": 50,
+      "urt": "1 butir"
+  },
+  {
+      "jenis_makanan": "Telur",
+      "bahan_makanan": "Telur ayam dadar",
+      "berat": 50,
+      "urt": "1 butir"
+  },
+  {
+      "jenis_makanan": "Telur",
+      "bahan_makanan": "Telur bebek",
+      "berat": 50,
+      "urt": "1 butir"
+  },
+  {
+      "jenis_makanan": "Telur",
+      "bahan_makanan": "Telur burung puyuh",
+      "berat": 10,
+      "urt": "1 butir"
+  },
+  {
+      "jenis_makanan": "Telur",
+      "bahan_makanan": "Telur bebek asin",
+      "berat": 50,
+      "urt": "1 butir"
+  },
+  {
+    "jenis_makanan": "Susu",
+    "bahan_makanan": "Susu sapi",
+    "berat": 200,
+    "urt": "1 gls"
+  },
+  {
+      "jenis_makanan": "Susu",
+      "bahan_makanan": "Susu kambing",
+      "berat": 200,
+      "urt": "1 gls"
+  },
+  {
+      "jenis_makanan": "Susu",
+      "bahan_makanan": "Es krim",
+      "berat": 66,
+      "urt": "1 prs"
+  },
+  {
+      "jenis_makanan": "Susu",
+      "bahan_makanan": "Keju",
+      "berat": 35,
+      "urt": "1 ptg kcl"
+  },
+  {
+      "jenis_makanan": "Susu",
+      "bahan_makanan": "Susu bubuk",
+      "berat": 10,
+      "urt": "1 sdm"
+  },
+  {
+      "jenis_makanan": "Susu",
+      "bahan_makanan": "Susu kental manis",
+      "berat": 10,
+      "urt": "1 sdm"
+  },
+  {
+      "jenis_makanan": "Susu",
+      "bahan_makanan": "Susu low fat/skim",
+      "berat": 200,
+      "urt": "1 gls"
+  },
+  {
+      "jenis_makanan": "Susu",
+      "bahan_makanan": "Susu low fat/skim bubuk",
+      "berat": 10,
+      "urt": "1 sdm"
+  },
+  {
+      "jenis_makanan": "Susu",
+      "bahan_makanan": "Yoghurt",
+      "berat": 120,
+      "urt": "2/3 gls"
+  },
+  {
+      "jenis_makanan": "Minuman",
+      "bahan_makanan": "Kelapa muda",
+      "berat": 200,
+      "urt": "1 gls"
+  }
+]

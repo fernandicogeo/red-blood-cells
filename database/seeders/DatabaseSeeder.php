@@ -19,6 +19,7 @@ class DatabaseSeeder extends Seeder
 
         foreach ($dataPenukar as $penukar) {
             DB::table('penukars')->insert([
+                'jenis_makanan' => $penukar->jenis_makanan,
                 'bahan_makanan' => $penukar->bahan_makanan,
                 'berat' => $penukar->berat,
                 'urt' => $penukar->urt

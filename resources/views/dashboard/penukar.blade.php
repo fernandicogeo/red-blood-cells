@@ -28,6 +28,7 @@
                 <thead>
                   <tr>
                     <th scope="col">#</th>
+                    <th scope="col">Jenis Makanan</th>
                     <th scope="col">Bahan Makanan</th>
                     <th scope="col">Berat</th>
                     <th scope="col">URT</th>
@@ -37,6 +38,7 @@
                     @foreach ($penukars as $penukar)
                     <tr>
                         <th scope="row">{{ $loop->iteration }}</th>
+                        <td>{{ $penukar->jenis_makanan }}</td>
                         <td>{{ $penukar->bahan_makanan }}</td>
                         <td>{{ $penukar->berat }}</td>
                         <td>{{ $penukar->urt }}</td>
