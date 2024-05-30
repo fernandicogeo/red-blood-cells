@@ -99,6 +99,26 @@
   </aside>
   @yield('content')
 </div>
+<div class="">
+  <footer class="mb-3 pt-3 border-top">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <span class="mb-3 mb-md-0 text-muted">&copy; 2024 Amiratun Rofilah</span>
+      </div>
+    </div>
+    <div class="row">
+      <ul class="nav col-sm-12 justify-content-center mt-2 list-unstyled">
+        <li class="ms-3">
+          <a class="text-muted" href="https://wa.me/6289506603320" target="_blank"><i class="bi bi-whatsapp"></i></a>
+        </li>
+        <li class="ms-3">
+          <a class="text-muted" href="mailto:amiratunrofilah.gz@gmail.com" target="_blank"><i class="bi bi-envelope"></i></a>
+        </li>
+      </ul>
+    </div>
+    
+  </footer>
+</div>
 <script src="/css/admin/plugins/jquery/jquery.min.js"></script>
 <script src="/css/admin/plugins/jquery-ui/jquery-ui.min.js"></script>
 <script>

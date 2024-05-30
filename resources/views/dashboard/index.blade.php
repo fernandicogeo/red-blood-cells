@@ -43,6 +43,15 @@
                   <div class="carousel-item">
                     <img src="img/6.png" class="d-block w-100" alt="Materi 6">
                   </div>
+                  <div class="carousel-item">
+                    <img src="img/7.png" class="d-block w-100" alt="Materi 7">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/8.png" class="d-block w-100" alt="Materi 8">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/9.png" class="d-block w-100" alt="Materi 9">
+                  </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev" style="filter: invert(100%);">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
