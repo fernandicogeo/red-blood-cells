@@ -19,5 +19,11 @@ Route::middleware('auth:web')->group(function () {
     Route::post('/form', [DashboardController::class, 'store'])->name('store.recall');
     Route::get('/hasil', [DashboardController::class, 'hasil'])->name('hasil.recall');
     Route::get('/anjuran', [DashboardController::class, 'anjuran'])->name('anjuran');
+    Route::get('/tambah-darah', [DashboardController::class, 'tambah_darah'])->name('form.tambah.darah');
+    Route::post('/tambah-darah', [DashboardController::class, 'store_tambah_darah'])->name('store.tambah.darah');
+    Route::post('/recall-menstruation', [DashboardController::class, 'store_recall_menstruation'])->name('store.menstruation');
+    Route::post('/finish-menstruation', [DashboardController::class, 'finish_menstruation'])->name('finish.menstruation');
+    Route::post('/recall-no-menstruation', [DashboardController::class, 'store_recall_no_menstruation'])->name('store.no.menstruation');
+    Route::post('/finish-no-menstruation', [DashboardController::class, 'finish_no_menstruation'])->name('finish.no.menstruation');
     Route::post('/logout', [DashboardController::class, 'logout'])->name('logout');
 });

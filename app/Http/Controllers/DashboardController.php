@@ -5,8 +5,11 @@ namespace App\Http\Controllers;
 use App\Models\Dianjurkan;
 use App\Models\Konsumsi;
 use App\Models\Makanan;
+use App\Models\Menstruation;
 use App\Models\Penukar;
 use App\Models\Recall;
+use App\Models\RecallMenstruation;
+use App\Models\RecallNoMenstruation;
 use App\Models\TidakDianjurkan;
 use App\Models\User;
 use Illuminate\Http\Request;
@@ -107,6 +110,113 @@ class DashboardController extends Controller
         $dianjurkans = Dianjurkan::all();
         $tidak_dianjurkans = TidakDianjurkan::all();
         return view('dashboard.anjuran', compact('dianjurkans', 'tidak_dianjurkans'));
+    }
+
+    public function tambah_darah()
+    {
+        $latestMenstruation = Menstruation::where('user_id', Auth::user()->id)->latest()->first();
+
+        $isFinished = false;
+        $isNotFinishedMenstruation = false;
+        $isNotFinishedNoMenstruation = null;
+
+        if (is_null($latestMenstruation) || $latestMenstruation->isFinished == 1) $isFinished = true;
+        if (!is_null($latestMenstruation) && $latestMenstruation->isFinished == 0 && $latestMenstruation->menstruasi == "Ya") $isNotFinishedMenstruation = true;
+        if (!is_null($latestMenstruation) && $latestMenstruation->isFinished == 0 && $latestMenstruation->menstruasi == "Tidak") $isNotFinishedNoMenstruation = true;
+
+        $menstruations = Menstruation::all();
+        $recallMenstruations = RecallMenstruation::all();
+        $recallNoMenstruations = RecallNoMenstruation::all();
+
+        return view('dashboard.tambah-darah', compact('menstruations', 'recallMenstruations', 'recallNoMenstruations', 'isFinished', 'isNotFinishedMenstruation', 'latestMenstruation', 'isNotFinishedNoMenstruation'));
+    }
+
+    public function store_tambah_darah(Request $request)
+    {
+        // return ($request);
+        $validatedData = $request->validate([
+            'menstruasi' => 'required',
+            'frekuensi_tablet' => 'required',
+        ]);
+        $validatedData['hari_menstruasi'] = $request->hari_menstruasi;
+        $validatedData['user_id'] = $request->id;
+
+        if ($validatedData['menstruasi'] == "Ya") $validatedData['isFinished'] = 0;
+        if ($validatedData['menstruasi'] == "Tidak") $validatedData['isFinished'] = 0;
+
+        $menstruation = Menstruation::create($validatedData);
+
+        $bulan = $menstruation->created_at->format('m');
+
+        $menstruation->update([
+            'bulan' => $bulan
+        ]);
+
+        return redirect(route('form.tambah.darah'))->with('success', 'Anda berhasil menambahkan data tambah darah');
+    }
+
+    public function store_recall_menstruation(Request $request)
+    {
+        $validatedData = $request->validate([
+            'hari' => 'required',
+            'isKonsumsi' => 'required',
+        ]);
+        $validatedData['hari'] = $request->hari;
+        $validatedData['user_id'] = $request->user_id;
+        $validatedData['menstruation_id'] = $request->menstruation_id;
+
+        $recallMenstruation = RecallMenstruation::create($validatedData);
+
+        $tanggal = $recallMenstruation->created_at->format('Y-m-d');
+
+        $recallMenstruation->update([
+            'tanggal' => $tanggal
+        ]);
+
+        return redirect(route('form.tambah.darah'))->with('success', 'Anda berhasil menambahkan data recall menstruasi');
+    }
+
+    public function store_recall_no_menstruation(Request $request)
+    {
+        $validatedData = $request->validate([
+            'minggu' => 'required',
+            'isKonsumsi' => 'required',
+        ]);
+        $validatedData['minggu'] = $request->minggu;
+        $validatedData['user_id'] = $request->user_id;
+        $validatedData['menstruation_id'] = $request->menstruation_id;
+
+        $recallNoMenstruation = RecallNoMenstruation::create($validatedData);
+
+        $tanggal = $recallNoMenstruation->created_at->format('Y-m-d');
+
+        $recallNoMenstruation->update([
+            'tanggal' => $tanggal
+        ]);
+
+        return redirect(route('form.tambah.darah'))->with('success', 'Anda berhasil menambahkan data recall menstruasi');
+    }
+
+    public function finish_menstruation(Request $request)
+    {
+        $menstruation = Menstruation::where('id', $request->menstruation_id)->latest()->first();
+
+        $menstruation->update([
+            'isFinished' => 1
+        ]);
+
+        return redirect(route('form.tambah.darah'))->with('success', 'Anda menyelesaikan data recall menstruasi');
+    }
+
+    public function finish_no_menstruation(Request $request)
+    {
+        $menstruation = Menstruation::where('id', $request->menstruation_id)->latest()->first();
+
+        $menstruation->update([
+            'isFinished' => 1
+        ]);
+
+        return redirect(route('form.tambah.darah'))->with('success', 'Anda menyelesaikan data recall tidak menstruasi');
     }
 
     public function logout()

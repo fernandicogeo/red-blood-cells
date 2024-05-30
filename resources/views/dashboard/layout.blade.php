@@ -84,14 +84,16 @@
                   </p>
                 </a>
               </li>
-              {{-- <li class="nav-item">
-                <a href="{{ route('dashboard') }}" class="nav-link">
+              @if (Auth::user()->jenis_kelamin == "Perempuan")
+              <li class="nav-item">
+                <a href="{{ route('form.tambah.darah') }}" class="nav-link">
                   <i class="bi bi-archive-fill"></i>
                   <p>
-                    Appointment
+                    Form Tambah Darah
                   </p>
                 </a>
-              </li> --}}
+              </li>
+              @endif
           @endauth
         </ul>
       </nav>
