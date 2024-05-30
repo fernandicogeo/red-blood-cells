@@ -68,15 +68,15 @@
                   </p>
                 </a>
               </li> 
-              {{-- <li class="nav-item">
-                <a href="{{ route('dashboard') }}" class="nav-link">
+              <li class="nav-item">
+                <a href="{{ route('anjuran') }}" class="nav-link">
                   <i class="bi bi-archive-fill"></i>
                   <p>
-                    Data User
+                    Anjuran Makanan
                   </p>
                 </a>
               </li>
-              <li class="nav-item">
+              {{-- <li class="nav-item">
                 <a href="{{ route('dashboard') }}" class="nav-link">
                   <i class="bi bi-archive-fill"></i>
                   <p>

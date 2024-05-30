@@ -17,5 +17,6 @@ Route::middleware('auth:web')->group(function () {
     Route::get('/form', [DashboardController::class, 'form'])->name('form.recall');
     Route::post('/form', [DashboardController::class, 'store'])->name('store.recall');
     Route::get('/hasil', [DashboardController::class, 'hasil'])->name('hasil.recall');
+    Route::get('/anjuran', [DashboardController::class, 'anjuran'])->name('anjuran');
     Route::post('/logout', [DashboardController::class, 'logout'])->name('logout');
 });

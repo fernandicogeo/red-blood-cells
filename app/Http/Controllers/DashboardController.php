@@ -2,10 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Dianjurkan;
 use App\Models\Konsumsi;
 use App\Models\Makanan;
 use App\Models\Penukar;
 use App\Models\Recall;
+use App\Models\TidakDianjurkan;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -92,6 +94,13 @@ class DashboardController extends Controller
         $users = User::where('id', $id)->get();
         $recalls = Recall::where('user_id', $id)->get();
         return view('dashboard.hasil', compact('users', 'recalls'));
+    }
+
+    public function anjuran()
+    {
+        $dianjurkans = Dianjurkan::all();
+        $tidak_dianjurkans = TidakDianjurkan::all();
+        return view('dashboard.anjuran', compact('dianjurkans', 'tidak_dianjurkans'));
     }
 
     public function logout()

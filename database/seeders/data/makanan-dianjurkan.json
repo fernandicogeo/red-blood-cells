@@ -1,0 +1,112 @@
+[
+    {
+        "sumber": "Protein Hewani",
+        "bahan_makanan": "Hati Ayam",
+        "fe": 15.8
+    },
+    {
+        "sumber": "Protein Hewani",
+        "bahan_makanan": "Telur Ayam",
+        "fe": 3
+    },
+    {
+        "sumber": "Protein Hewani",
+        "bahan_makanan": "Daging Sapi",
+        "fe": 2.6
+    },
+    {
+        "sumber": "Protein Hewani",
+        "bahan_makanan": "Ikan",
+        "fe": 2
+    },
+    {
+        "sumber": "Protein Hewani",
+        "bahan_makanan": "Susu",
+        "fe": 2
+    },
+    {
+        "sumber": "Protein Hewani",
+        "bahan_makanan": "Daging Ayam",
+        "fe": 1.5
+    },
+    {
+        "sumber": "Protein Nabati",
+        "bahan_makanan": "Oncom",
+        "fe": 27
+    },
+    {
+        "sumber": "Protein Nabati",
+        "bahan_makanan": "Kacang Hijau",
+        "fe": 7.5
+    },
+    {
+        "sumber": "Protein Nabati",
+        "bahan_makanan": "Kacang Kedelai",
+        "fe": 6.9
+    },
+    {
+        "sumber": "Protein Nabati",
+        "bahan_makanan": "Tempe",
+        "fe": 4.9
+    },
+    {
+        "sumber": "Protein Nabati",
+        "bahan_makanan": "Kacang Merah",
+        "fe": 3.7
+    },
+    {
+        "sumber": "Protein Nabati",
+        "bahan_makanan": "Tahu",
+        "fe": 3.4
+    },
+    {
+        "sumber": "Sayuran",
+        "bahan_makanan": "Bayam Merah",
+        "fe": 7
+    },
+    {
+        "sumber": "Sayuran",
+        "bahan_makanan": "Bayam Hijau",
+        "fe": 3.5
+    },
+    {
+        "sumber": "Sayuran",
+        "bahan_makanan": "Daun Katuk",
+        "fe": 3.1
+    },
+    {
+        "sumber": "Sayuran",
+        "bahan_makanan": "Daun Singkong",
+        "fe": 2.6
+    },
+    {
+        "sumber": "Sayuran",
+        "bahan_makanan": "Kangkung",
+        "fe": 2.3
+    },
+    {
+        "sumber": "Sayuran",
+        "bahan_makanan": "Daun Kelor",
+        "fe": 2.1
+    },
+    {
+        "sumber": "Tinggi Vitamin C",
+        "bahan_makanan": "Pepaya",
+        "fe": 1.7
+    },
+    {
+        "sumber": "Tinggi Vitamin C",
+        "bahan_makanan": "Jambu Biji",
+        "fe": 1.1
+    },
+    {
+        "sumber": "Tinggi Vitamin C",
+        "bahan_makanan": "Tomat",
+        "fe": 0.6
+    },
+    {
+        "sumber": "Tinggi Vitamin C",
+        "bahan_makanan": "Jeruk",
+        "fe": 0.4
+    }
+]

@@ -13,6 +13,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
+        // penukars
         $jsonPenukar = File::get("database/seeders/data/penukar.json");
         $dataPenukar = json_decode($jsonPenukar);
 
@@ -24,6 +25,7 @@ class DatabaseSeeder extends Seeder
             ]);
         }
 
+        // makanans
         $jsonMakanan = File::get("database/seeders/data/makanan.json");
         $dataMakanan = json_decode($jsonMakanan);
 
@@ -37,6 +39,31 @@ class DatabaseSeeder extends Seeder
                 'fe' => $makanan->fe,
             ]);
         }
+
+
+        // makanan dianjurkans
+        $jsonDianjurkan = File::get("database/seeders/data/makanan-dianjurkan.json");
+        $dataDianjurkan = json_decode($jsonDianjurkan);
+
+        foreach ($dataDianjurkan as $dianjurkan) {
+            DB::table('dianjurkans')->insert([
+                'sumber' => $dianjurkan->sumber,
+                'bahan_makanan' => $dianjurkan->bahan_makanan,
+                'fe' => $dianjurkan->fe,
+            ]);
+        }
+
+        // makanan tidak dianjurkans
+        $jsonTdkDianjurkan = File::get("database/seeders/data/makanan-tidak-dianjurkan.json");
+        $dataTdkDianjurkan = json_decode($jsonTdkDianjurkan);
+
+        foreach ($dataTdkDianjurkan as $TdkDianjurkan) {
+            DB::table('tidak_dianjurkans')->insert([
+                'sumber' => $TdkDianjurkan->sumber,
+                'bahan_makanan' => $TdkDianjurkan->bahan_makanan,
+            ]);
+        }
+
 
         DB::table('users')->insert(
             [
