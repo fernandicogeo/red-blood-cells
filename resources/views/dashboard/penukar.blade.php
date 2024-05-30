@@ -30,7 +30,7 @@
                     <th scope="col">#</th>
                     <th scope="col">Jenis Makanan</th>
                     <th scope="col">Bahan Makanan</th>
-                    <th scope="col">Berat</th>
+                    <th scope="col">Berat (gr)</th>
                     <th scope="col">URT</th>
                   </tr>
                 </thead>
