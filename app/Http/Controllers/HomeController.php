@@ -61,11 +61,11 @@ class HomeController extends Controller
 
         $kategori_imt = '';
 
-        if ($imt < 18.5) $kategori_imt = "Underweight";
-        else if ($imt >= 18.5 && $imt < 23) $kategori_imt = "Normal";
-        else if ($imt >= 23 && $imt < 25) $kategori_imt = "Overweight";
-        else if ($imt >= 25 && $imt < 30) $kategori_imt = "Obesitas 1";
-        else if ($imt >= 30) $kategori_imt = "Obesitas 2";
+        if ($imt < 17) $kategori_imt = "Kurus tingkat berat";
+        else if ($imt >= 17 && $imt < 18.5) $kategori_imt = "Kurus tingkat ringan";
+        else if ($imt >= 18.5 && $imt <= 25) $kategori_imt = "Normal";
+        else if ($imt > 25 && $imt <= 27) $kategori_imt = "Gemuk ringan";
+        else if ($imt > 27) $kategori_imt = "Gemuk berat";
 
         $validatedDataUser = [
             'nama' => $validatedData['nama'],

@@ -73,11 +73,11 @@ class DashboardController extends Controller
             ]);
         }
 
-        $kategoriEnergi = ($recall->total_energi < 2100) ? 'Rendah' : 'Normal';
-        $kategoriProtein = ($recall->total_protein < 65) ? 'Rendah' : 'Normal';
-        $kategoriLemak = ($recall->total_lemak < 70) ? 'Rendah' : 'Normal';
-        $kategoriKh = ($recall->total_kh < 300) ? 'Rendah' : 'Normal';
-        $kategoriFe = ($recall->total_fe < 15) ? 'Rendah' : 'Normal';
+        $kategoriEnergi = ($recall->total_energi < 1720) ? 'Kurang' : 'Baik';
+        $kategoriProtein = ($recall->total_protein < 48) ? 'Kurang' : 'Baik';
+        $kategoriLemak = ($recall->total_lemak < 56) ? 'Kurang' : 'Baik';
+        $kategoriKh = ($recall->total_kh < 264) ? 'Kurang' : 'Baik';
+        $kategoriFe = ($recall->total_fe < 15) ? 'Kurang' : 'Baik';
 
         $konsumsi->update([
             'recall_id' => $recall->id
