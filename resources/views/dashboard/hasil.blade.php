@@ -69,11 +69,11 @@
                         <tr>
                             <th scope="row">{{ $loop->iteration }}</th>
                             <td>{{ $recall->created_at->format('Y-m-d') }}</td>
-                            <td>{{ $recall->total_energi }}</td>
-                            <td>{{ $recall->total_protein }}</td>
-                            <td>{{ $recall->total_lemak }}</td>
-                            <td>{{ $recall->total_kh }}</td>
-                            <td>{{ $recall->total_fe }}</td>
+                            <td>{{ $recall->total_energi }} ({{ $recall->kategori_energi }})</td>
+                            <td>{{ $recall->total_protein }} ({{ $recall->kategori_protein }})</td>
+                            <td>{{ $recall->total_lemak }} ({{ $recall->kategori_lemak }})</td>
+                            <td>{{ $recall->total_kh }} ({{ $recall->kategori_kh }})</td>
+                            <td>{{ $recall->total_fe }} ({{ $recall->kategori_fe }})</td>
                         </tr>
                         @endforeach
                     </tbody>

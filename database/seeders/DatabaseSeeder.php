@@ -50,6 +50,9 @@ class DatabaseSeeder extends Seeder
                 'imt' => 22.15,
                 'kategori_imt' => 'Normal'
             ],
+        );
+
+        DB::table('users')->insert(
             [
                 'nama' => 'Amira',
                 'email' => 'amiratunrofilah.rfh@gmail.com',
