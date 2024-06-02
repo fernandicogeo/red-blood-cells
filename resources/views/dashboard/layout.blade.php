@@ -64,7 +64,7 @@
                 <a href="{{ route('form.recall') }}" class="nav-link">
                   <i class="bi bi-archive-fill"></i>
                   <p>
-                    Form Recall Makanan
+                    Form Food Record
                   </p>
                 </a>
               </li>
@@ -72,7 +72,7 @@
                 <a href="{{ route('hasil.recall') }}" class="nav-link">
                   <i class="bi bi-archive-fill"></i>
                   <p>
-                    Hasil Recall Makanan
+                    Hasil Food Record
                   </p>
                 </a>
               </li> 

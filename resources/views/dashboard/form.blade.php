@@ -1,6 +1,6 @@
 @extends('dashboard.layout')
 
-@section('title', 'Form Recall Makanan')
+@section('title', 'Form Food Record')
 
 @section('content')
 <div class="content-wrapper">
@@ -9,12 +9,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Form Recall Makanan</h1>
+            <h1 class="m-0">Form Food Record</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="{{ route('dashboard') }}">Home</a></li>
-              <li class="breadcrumb-item">Form Recall Makanan</li>
+              <li class="breadcrumb-item">Form Food Record</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->

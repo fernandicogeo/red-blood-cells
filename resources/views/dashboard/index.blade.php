@@ -26,7 +26,7 @@
             <div id="carouselExampleFade" class="carousel slide carousel-fade">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="img/1.png" class="d-block w-100" alt="Materi 1">
+                    <img src="img/1.jpg" class="d-block w-100" alt="Materi 1">
                   </div>
                   <div class="carousel-item">
                     <img src="img/2.png" class="d-block w-100" alt="Materi 2">
@@ -47,7 +47,7 @@
                     <img src="img/7.png" class="d-block w-100" alt="Materi 7">
                   </div>
                   <div class="carousel-item">
-                    <img src="img/8.png" class="d-block w-100" alt="Materi 8">
+                    <img src="img/8.jpg" class="d-block w-100" alt="Materi 8">
                   </div>
                   <div class="carousel-item">
                     <img src="img/9.png" class="d-block w-100" alt="Materi 9">

@@ -28,10 +28,10 @@
                 <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal1">Form Menstruasi</button>
                 @endif
                 @if ($isNotFinishedMenstruation)
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">Tambah Recall Menstruasi</button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">Tambah Data Menstruasi</button>
                 @endif
                 @if ($isNotFinishedNoMenstruation)
-                <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal3">Tambah Recall Tidak Menstruasi</button>
+                <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal3">Tambah Data Tidak Menstruasi</button>
                 @endif
             </div>
         </div>
@@ -61,7 +61,7 @@
             </div>
         </div>
         <div class="row mt-3">
-            <h5>Tabel Recall Menstruasi</h5>
+            <h5>Tabel Data Menstruasi</h5>
             <div style="overflow-x:auto;">
                 <table class="table table-striped table-secondary">
                     <thead>
@@ -91,7 +91,7 @@
             @endif
         </div>
         <div class="row mt-3">
-            <h5>Tabel Recall Tidak Menstruasi</h5>
+            <h5>Tabel Data Tidak Menstruasi</h5>
             <div style="overflow-x:auto;">
                 <table class="table table-striped table-secondary">
                     <thead>
@@ -157,13 +157,11 @@
                     @enderror
                 </div>
                 <div class="form-group">
-                    <label for="frekuensi_tablet" id="frekuensi_tablet_label">Berapa kali anda mengonsumsi tablet tambah darah selama menstruasi?</label>
+                    <label for="frekuensi_tablet" id="frekuensi_tablet_label">Apakah anda mengonsumsi tablet tambah darah?</label>
                     <select class="form-control" id="frekuensi_tablet" name="frekuensi_tablet" required>
                         <option value="" {{ old('frekuensi_tablet') == '' ? 'selected' : '' }}>Pilih Jawaban</option>
-                        <option id="option1" value="Pernah 1-2 kali">Pernah 1-2 kali</option>
-                        <option id="option2" value="Pernah 3-4 kali">Pernah 3-4 kali</option>
-                        <option id="option3" value="Setiap hari">Setiap hari</option>
-                        <option id="option4" value="Tidak Pernah">Tidak Pernah</option>
+                        <option id="option3" value="Ya">Ya</option>
+                        <option id="option4" value="Tidak">Tidak</option>
                     </select>
                     @error('frekuensi_tablet')
                         <div class="invalid-feedback">{{ $message }}</div>
@@ -280,20 +278,12 @@
             if (menstruasiSelect.value === 'Ya') {
                 hariMenstruasiGroup.style.display = 'block';
                 hariMenstruasiInput.setAttribute('required', 'required');
-                frekuensiTabletLabel.textContent = 'Berapa kali anda mengonsumsi tablet tambah darah selama menstruasi?';
-                option2.style.display = 'block';
-                option3.style.display = 'block';
-                option2.disabled = false;
-                option3.disabled = false;
+                frekuensiTabletLabel.textContent = 'Apakah anda mengonsumsi tablet tambah darah?';
             } else {
                 hariMenstruasiGroup.style.display = 'none';
                 hariMenstruasiInput.value = '';
                 hariMenstruasiInput.removeAttribute('required');
-                frekuensiTabletLabel.textContent = 'Berapa kali anda mengonsumsi tablet tambah darah selama bulan ini?';
-                option2.style.display = 'none';
-                option3.style.display = 'none';
-                option2.disabled = true;
-                option3.disabled = true;
+                frekuensiTabletLabel.textContent = 'Apakah anda konsumsi tablet tambah darah selama minggu ini?';
             }
         }
 
