@@ -86,7 +86,7 @@
             <form method="post" action="{{ route('finish.menstruation') }}" enctype="multipart/form-data">
               @csrf
               <input type="hidden" value="{{ $latestMenstruation ? $latestMenstruation->id : 'null' }}" name="menstruation_id">
-              <button type="submit" class="btn btn-success">Selesai Recall</button>
+              <button type="submit" class="btn btn-success">Selesai</button>
             </form>
             @endif
         </div>
@@ -116,7 +116,7 @@
             <form method="post" action="{{ route('finish.no.menstruation') }}" enctype="multipart/form-data">
               @csrf
               <input type="hidden" value="{{ $latestMenstruation ? $latestMenstruation->id : 'null' }}" name="menstruation_id">
-              <button type="submit" class="btn btn-success mb-5">Selesai Recall</button>
+              <button type="submit" class="btn btn-success mb-5">Selesai</button>
             </form>
             @endif
         </div>

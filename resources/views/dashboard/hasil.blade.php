@@ -50,7 +50,7 @@
               </div>
         </div>
         <div class="row mt-3">
-            <h5>Tabel Hasil Recall</h5>
+            <h5>Hasil Food Record</h5>
             <div style="overflow-x:auto;">
                 <table class="table table-striped table-secondary">
                     <thead>
