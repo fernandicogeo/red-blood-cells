@@ -124,9 +124,9 @@ class DashboardController extends Controller
         if (!is_null($latestMenstruation) && $latestMenstruation->isFinished == 0 && $latestMenstruation->menstruasi == "Ya") $isNotFinishedMenstruation = true;
         if (!is_null($latestMenstruation) && $latestMenstruation->isFinished == 0 && $latestMenstruation->menstruasi == "Tidak") $isNotFinishedNoMenstruation = true;
 
-        $menstruations = Menstruation::all();
-        $recallMenstruations = RecallMenstruation::all();
-        $recallNoMenstruations = RecallNoMenstruation::all();
+        $menstruations = Menstruation::where('user_id', Auth::user()->id)->get();
+        $recallMenstruations = RecallMenstruation::where('user_id', Auth::user()->id)->get();
+        $recallNoMenstruations = RecallNoMenstruation::where('user_id', Auth::user()->id)->get();
 
         return view('dashboard.tambah-darah', compact('menstruations', 'recallMenstruations', 'recallNoMenstruations', 'isFinished', 'isNotFinishedMenstruation', 'latestMenstruation', 'isNotFinishedNoMenstruation'));
     }
